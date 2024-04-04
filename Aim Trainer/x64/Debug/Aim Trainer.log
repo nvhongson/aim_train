@@ -1,0 +1,12 @@
+﻿  crosshair.cpp
+  crosshair_color_change.cpp
+  gamestart.cpp
+  Generating Code...
+C:\Users\Son\OneDrive - Swinburne University\Desktop\Aim Trainer\Aim Trainer\gamestart.cpp(6,10): error C2664: 'HINSTANCE ShellExecuteW(HWND,LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR,INT)': cannot convert argument 2 from 'const char [5]' to 'LPCWSTR'
+  C:\Users\Son\OneDrive - Swinburne University\Desktop\Aim Trainer\Aim Trainer\gamestart.cpp(6,29):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\shellapi.h(96,22):
+  see declaration of 'ShellExecuteW'
+  C:\Users\Son\OneDrive - Swinburne University\Desktop\Aim Trainer\Aim Trainer\gamestart.cpp(6,10):
+  while trying to match the argument list '(int, const char [5], const char [14], int, int, int)'
+  
